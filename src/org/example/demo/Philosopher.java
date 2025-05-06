@@ -40,6 +40,7 @@ class Philosopher extends Thread {
                     } catch (InterruptedException ex) {
                         Logger.getLogger(Philosopher.class.getName()).log(Level.SEVERE, null, ex);
                     }
+                    //rqrqwrqwrq
                     forks.leaveForks(name);
                     currentState = State.THINKING;
                     wasHungry = false;
