@@ -10,7 +10,7 @@ public class Main {
             philosophers[i] = new Philosopher(forks);
         }
 
-
+//qweqw
         for (int i = 0; i < number; i++) {
             philosophers[i].start();
         }
