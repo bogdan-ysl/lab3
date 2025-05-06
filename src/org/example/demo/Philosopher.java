@@ -10,7 +10,7 @@ class Philosopher extends Thread {
     private static int currentName = 0;
     private int cycleCount = 0;
     private static final int MAX_CYCLES = 3;
-
+//123
     private enum State {HUNGRY, EATING, THINKING};
 
     public Philosopher(Forks forks) {
