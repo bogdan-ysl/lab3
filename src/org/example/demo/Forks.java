@@ -9,7 +9,7 @@ public class Forks {
         this.forks = new boolean[number]; // inițial toate furculițele sunt libere (false)
         System.out.println("Furculițele au fost create!");
     }
-
+//123
     public synchronized boolean takeForks(int philosopherId) {
         int leftFork = philosopherId; // furculița din stânga
         int rightFork = (philosopherId + 1) % number; // furculița din dreapta
